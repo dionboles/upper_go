@@ -8,5 +8,5 @@ import (
 
 func main() {
 	argsWithProg := os.Args[1:]
-	fmt.Println(strings.ToUpper(strings.Join(argsWithProg, "")))
+	fmt.Println(strings.ToUpper(strings.Join(argsWithProg, " ")))
 }
