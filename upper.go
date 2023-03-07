@@ -11,7 +11,7 @@ func main() {
 	var check = false
 	for _, a := range argsWithProg {
 		if strings.ToLower(a) == "lower" {
-			check = true
+			check = true;
 		}
 	}
 
