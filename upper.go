@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 )
-
+// this is the main 
 func main() {
 	argsWithProg := os.Args[1:]
 	var check = false
